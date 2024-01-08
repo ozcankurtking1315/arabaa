@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "alan";
+    grid-template-rows: 150px 1000px 300px ;
+
+}
+header{
+    flex: 0 0 20%;
+    background-color: black;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+header>img{
+    flex: 1 1 100px;
+    max-width: 110px;
+    min-height: 50px;
+    
+    
+}
+header>a{
+    text-decoration: none;
+    color: white;
+}
+header>span{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    
+ 
+}
+header>span>a{
+    
+    text-decoration: none;
+    color: white;
+    
+}
+
+main{
+    display: flex;
+    flex:0 0 60%;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: gray;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+    
+    
+
+}
+main > img{
+    flex: 0 0 30%;
+    height: 250px;
+    background-color: rgb(68, 65, 65);
+    border-radius: 15px;
+    border: 2px solid rgb(41, 40, 40);
+    
+}
+
+.alan{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 50%;
+    padding: 20px;
+    background-color: gray;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.alan > img{
+    flex: 0 0 30%;
+    height: 250px;
+    background-color: rgb(68, 65, 65);
+    border-radius: 15px;
+    border: 2px solid rgb(41, 40, 40);
+}
+footer{
+    flex: 0 0 20%;
+    background-color: rgb(0,0,0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+}
+footer>img{
+    flex: 1 1 50px;
+    max-width: 100px;
+    min-height: 20px;
+}
+footer>span{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > .a4 > a{
+        flex: 0 0 10%;
+        font-size: 25px;
+        color: white;
+        display:flex;
+        flex-direction: row;
+        justify-content: left;
+        margin-left:750px;
+        gap: 15px;
+        
+}
+footer > .a4 > #a5 > .a1:hover{
+    color: rgb(182, 57, 255);
+}
+footer > .a4 > #a5 > .a2:hover{
+    color: rgb(17, 0, 255);
+}
+footer > .a4 > #a5 > .a3:hover{
+    color: rgb(8, 248, 0);
+}
+footer > .a1 > a:hover{
+    color: gray;
+}
+footer > .a2 > a:hover{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+

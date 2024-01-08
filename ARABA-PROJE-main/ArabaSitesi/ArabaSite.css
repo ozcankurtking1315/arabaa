@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    "header "
+    "main "
+    "alan"
+    "alan2"
+    "footer " ;
+    gap: 5px;
+    grid-template-rows: 150px 750px 800px 870px 200px;
+}
+   
+ 
+
+header{
+    flex: 0 0 20%;
+    background-color: black;
+    display: flex;
+    gap: 50px;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+header>img{
+    flex: 1 1 100px;
+    max-width: 110px;
+    min-height: 50px;
+    
+    
+}
+header>a{
+    text-decoration: none;
+    color: white;
+}
+header>span{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    
+ 
+}
+header>span>a{
+    text-decoration: none;
+    color: white;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    flex-wrap: wrap;
+    
+}
+main > img{
+    flex: 1 1 100%;
+    width: 100vw;
+}
+
+
+
+main > h3,h2 {
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color:white;
+    margin: 10px;
+}
+
+.alan{
+    display: flex;
+    flex-wrap: wrap;
+    background: url(images/src_340x1912x2022-mitsubishi-airtrek-elektrikli-crossover-tanitildi.jpg) no-repeat center/cover;
+    flex: 1 1 100%;
+    grid-area: alan;
+
+}
+.alan2{
+    display: flex;
+    flex-wrap: wrap;
+    background: url(images/ba4d2199912665.5efd111ebd1f9.png) no-repeat center/cover;
+    grid-area: alan2;
+    flex: 1 1 100%;
+}
+
+
+footer{
+   
+    background-color: rgb(0,0,0);
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+}
+footer>img{
+    flex: 1 1 50px;
+    max-width: 100px;
+    min-height: 20px;
+}
+footer>span{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > .a4 > a{
+        flex: 1 1 100%;
+        font-size: 25px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left:750px;
+        gap: 15px;
+        
+}
+footer > .a4 > #a5 > .a1:hover{
+    color: rgb(182, 57, 255);
+}
+footer > .a4 > #a5 > .a2:hover{
+    color: rgb(17, 0, 255);
+}
+footer > .a4 > #a5 > .a3:hover{
+    color: rgb(8, 248, 0);
+}
+footer > .a1 > a:hover{
+    color: gray;
+}
+footer > .a2 > a:hover{
+    color: gray;
+}
+
+
+
+
+

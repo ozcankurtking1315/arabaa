@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "alan"
+    "alan2"
+    "footer" ;
+    gap: 5px;
+    grid-template-rows: 150px 750px 800px 870px 200px;
+    /*background: url(images/img_04.jpg)no-repeat center/cover;
+    */
+}
+header{
+    flex: 0 0 20%;
+    background-color: black;
+    
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+header>img{
+    flex: 1 1 100px;
+    max-width: 110px;
+    min-height: 50px;
+    
+    
+}
+header>a{
+    text-decoration: none;
+    color: white;
+}
+header>span{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    
+ 
+}
+header>span>a{
+    
+    text-decoration: none;
+    color: white;
+    
+}
+header>input{
+        flex: 0 0 100px;
+        height: 40px;
+        border-radius: 10px;
+}
+header > #Araştır{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    border-radius: 15px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 0 0 60%; 
+    background: url(images/img_04.jpg) no-repeat center/cover;
+}
+
+
+
+main > h3,h2 {
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color:white;
+    margin: 10px;
+}
+
+.alan{
+    background: url(images/src_340x1912x2022-mitsubishi-airtrek-elektrikli-crossover-tanitildi.jpg) no-repeat center/cover;
+}
+.alan2{
+    background: url(images/ba4d2199912665.5efd111ebd1f9.png) no-repeat center/cover;
+}
+
+
+footer{
+    flex: 0 0 20%;
+    background-color: rgb(0,0,0);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+}
+footer>img{
+    flex: 1 1 50px;
+    max-width: 100px;
+    min-height: 20px;
+}
+footer>span{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > .a4 > a{
+        flex: 0 0 10%;
+        font-size: 25px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left:750px;
+        gap: 15px;
+        
+}
+footer > .a4 > #a5 > *:hover{
+    color: rgb(77, 74, 74);
+}
+footer > .a1 > a:hover{
+    color: gray;
+}
+footer > .a2 > a:hover{
+    color: gray;
+}
+footer > .a3 > a:hover{
+    color: gray;
+}
+
+
+
+
+

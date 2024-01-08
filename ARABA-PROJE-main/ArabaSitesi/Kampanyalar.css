@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer" ;
+    gap: 5px;
+    grid-template-rows: 150px 1350px 200px;
+}
+header{
+    flex: 0 0 20%;
+    background-color: black;
+    
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+header>img{
+    flex: 1 1 100px;
+    max-width: 110px;
+    min-height: 50px;
+    
+    
+}
+header>a{
+    text-decoration: none;
+    color: white;
+}
+header>span{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    
+ 
+}
+header>span>a{
+    
+    text-decoration: none;
+    color: white;
+    
+}
+
+main{
+    display: flex;
+    flex:0 0 60%;
+    padding:15px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: gray;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+main > .araba1{
+    flex: 0 0 30%;
+    height: 400px;
+    text-align: center;
+    background-color:bisque;
+    padding: 15px 15px;
+    border-radius: 15px;  
+}
+main > .araba1 > img{
+    flex: 0 0 40%;
+    height: 70%;
+    padding: 15px;
+    border: black solid 2px;
+    
+}
+main > .araba2 > img{
+    flex: 0 0 40%;
+    height: 70%;
+    padding: 15px;
+    border: black solid 2px;
+    
+}
+main > .araba2{
+    flex: 0 0 30%;
+    height: 400px;
+    text-align: center;
+    background-color:bisque;
+    padding: 15px 15px;
+    border-radius: 15px;
+    
+}
+main > .araba3{
+    flex: 0 0 30%;
+    height: 400px;
+    text-align: center;
+    background-color:bisque;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+main > .araba3 > img{
+    flex: 0 0 40%;
+    height: 70%;
+    padding: 15px;
+    border: black solid 2px;
+}
+main > .araba4{
+    flex: 0 0 30%;
+    height: 400px;
+    text-align: center;
+    background-color:bisque;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+main > .araba4 > img{
+    flex: 0 0 40%;
+    height: 70%;
+    padding: 15px;
+    border: black solid 2px;
+}
+main > .araba5{
+    flex: 0 0 30%;
+    height: 400px;
+    text-align: center;
+    background-color:bisque;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+main > .araba5 > img{
+    flex: 0 0 40%;
+    height: 70%;
+    padding: 15px;
+    border: black solid 2px;
+}
+main  > .araba6{
+    flex: 0 0 30%;
+    height: 400px;
+    text-align: center;
+    background-color:bisque;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+main > .araba6 > img{
+    flex: 0 0 40%;
+    height: 70%;
+    padding: 15px;
+    border: black solid 2px;
+}
+main  > .araba7{
+    flex: 0 0 30%;
+    height: 400px;
+    text-align: center;
+    background-color:bisque;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+main > .araba7 > img{
+    flex: 0 0 40%;
+    height: 70%;
+    padding: 15px;
+    border: black solid 2px;
+}
+main  > .araba8{
+    flex: 0 0 30%;
+    height: 400px;
+    text-align: center;
+    background-color:bisque;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+main > .araba8 > img{
+    flex: 0 0 40%;
+    height: 70%;
+    padding: 15px;
+    border: black solid 2px;
+}
+main  > .araba9{
+    flex: 0 0 30%;
+    height: 400px;
+    text-align: center;
+    background-color:bisque;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+main > .araba9 > img{
+    flex: 0 0 40%;
+    height: 70%;
+    padding: 15px;
+    border: black solid 2px;
+}
+footer{
+    flex: 0 0 20%;
+    background-color: rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+}
+footer>img{
+    flex: 1 1 50px;
+    max-width: 100px;
+    min-height: 20px;
+}
+footer>span{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > .a4 > a{
+        flex: 0 0 10%;
+        font-size: 25px;
+        color: white;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left:750px;
+        gap: 15px;
+        
+}
+footer > .a4 > #a5 > .a1:hover{
+    color: rgb(182, 57, 255);
+}
+footer > .a4 > #a5 > .a2:hover{
+    color: rgb(17, 0, 255);
+}
+footer > .a4 > #a5 > .a3:hover{
+    color: rgb(8, 248, 0);
+}
+footer > .a1 > a:hover{
+    color: gray;
+}
+footer > .a2 > a:hover{
+    color: gray;
+}
+
+
+
+
+
+
+
